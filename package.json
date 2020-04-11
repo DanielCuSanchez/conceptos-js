@@ -1,0 +1,23 @@
+{
+  "name": "curso-profesional-js",
+  "version": "1.0.0",
+  "description": "Conceptos intermedios de como funciona Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "live-server ./assets/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielCuSanchez/conceptos-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielCuSanchez/conceptos-js/issues"
+  },
+  "homepage": "https://github.com/DanielCuSanchez/conceptos-js#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
