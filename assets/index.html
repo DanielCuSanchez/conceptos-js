@@ -10,36 +10,55 @@
 
 <body>
     <header>
-        <h1>PlatziMediaPlayer.js</h1>
+        <h1>Media player</h1>
         <p>An extensible media player.</p>
     </header>
 
     <main class="container">
-        <video class="video">
+        <video class="video" width="900">
             <source src="Boston Dynamics.mp4" />
         </video>
-        <button>Play/Pause</button>
+        <button class="play">Play/Pause</button>
+        <button class="muted">Muted/Unmuted</button>
     </main>
-
-    <script>
-        const video = document.querySelector('video')
-        const button = document.querySelector('button')
-
-        function MediaPlayer(config) {
-            this.media = config.el
-            this.active = false
-        }
-        MediaPlayer.prototype.play = function () {
-            this.active = !this.active
-            this.active
-                ? this.media.play()
-                : this.media.pause()
-        }
-        const player = new MediaPlayer({ el: video })
-        button.onclick = () => player.play()
-
-
-    </script>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque molestias debitis voluptate beatae velit vero. Cumque, quaerat iusto id possimus assumenda, accusamus, similique et eligendi neque dolorem veritatis soluta.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tenetur laborum veritatis necessitatibus quisquam, doloribus adipisci cum sapiente animi porro nostrum consectetur ullam nesciunt eum facilis dignissimos sequi nemo officia.</p>
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque molestias debitis voluptate beatae velit vero. Cumque, quaerat iusto id possimus assumenda, accusamus, similique et eligendi neque dolorem veritatis soluta.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tenetur laborum veritatis necessitatibus quisquam, doloribus adipisci cum sapiente animi porro nostrum consectetur ullam nesciunt eum facilis dignissimos sequi nemo officia.</p>
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque molestias debitis voluptate beatae velit vero. Cumque, quaerat iusto id possimus assumenda, accusamus, similique et eligendi neque dolorem veritatis soluta.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tenetur laborum veritatis necessitatibus quisquam, doloribus adipisci cum sapiente animi porro nostrum consectetur ullam nesciunt eum facilis dignissimos sequi nemo officia.</p>
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque molestias debitis voluptate beatae velit vero. Cumque, quaerat iusto id possimus assumenda, accusamus, similique et eligendi neque dolorem veritatis soluta.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tenetur laborum veritatis necessitatibus quisquam, doloribus adipisci cum sapiente animi porro nostrum consectetur ullam nesciunt eum facilis dignissimos sequi nemo officia.</p>
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque molestias debitis voluptate beatae velit vero. Cumque, quaerat iusto id possimus assumenda, accusamus, similique et eligendi neque dolorem veritatis soluta.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tenetur laborum veritatis necessitatibus quisquam, doloribus adipisci cum sapiente animi porro nostrum consectetur ullam nesciunt eum facilis dignissimos sequi nemo officia.</p>
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam itaque molestias debitis voluptate beatae velit vero. Cumque, quaerat iusto id possimus assumenda, accusamus, similique et eligendi neque dolorem veritatis soluta.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum tenetur laborum veritatis necessitatibus quisquam, doloribus adipisci cum sapiente animi porro nostrum consectetur ullam nesciunt eum facilis dignissimos sequi nemo officia.</p>
+    </div>
+    <script type="module" src="index.js"></script>
+   
 </body>
 
 </html>
